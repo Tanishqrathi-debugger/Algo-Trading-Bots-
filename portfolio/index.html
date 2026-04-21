@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Journey to Success</title>
+    <meta name="description" content="A personal portfolio showcasing achievements, skills, learnings, and the journey from failure to success.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#thoughts">Thoughts</a></li>
+                <li><a href="#resume" class="btn-primary-small">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="about" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Transforming <span class="gradient-text">Ideas</span> into <span class="gradient-text">Reality</span></h1>
+            <p class="hero-subtitle">Hi, I'm a passionate developer and problem solver. I believe that every failure is just a stepping stone to the next big success. Welcome to my digital space.</p>
+            <div class="hero-cta">
+                <a href="#journey" class="btn-primary">Explore My Journey</a>
+                <a href="#skills" class="btn-secondary">View Skills</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </header>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming</h3>
+                    <p>Python, JavaScript, C++, HTML/CSS</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Frameworks</h3>
+                    <p>React, Node.js, Next.js, Django</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Problem Solving</h3>
+                    <p>Algorithms, Data Structures, System Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, AWS, Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>1st Place - Global Hackathon</h3>
+                        <p>Developed an AI-driven solution that improved efficiency by 40%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Top 5% Competitive Programming</h3>
+                        <p>Ranked globally on major coding platforms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Open Source Contributor</h3>
+                        <p>Merged over 50 PRs in major open-source repositories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="section">
+        <div class="container">
+            <h2 class="section-title">Failures & Key Learnings</h2>
+            <div class="journey-content">
+                <div class="journey-image">
+                    <img src="assets/failure_to_success.png" alt="Jumping from Failure to Success" />
+                </div>
+                <div class="journey-text">
+                    <div class="learning-card">
+                        <h3>The Big Fall: National Finals</h3>
+                        <p><strong>The Failure:</strong> My team's code failed during the live demonstration due to an unhandled edge case.</p>
+                        <p><strong>The Learning:</strong> Always test in a production-like environment. Resilience is more important than perfection.</p>
+                    </div>
+                    <div class="learning-card">
+                        <h3>Startup Idea Rejection</h3>
+                        <p><strong>The Failure:</strong> Pitched a product that got rejected by 20 investors.</p>
+                        <p><strong>The Learning:</strong> Listening to user feedback is crucial. I pivoted the idea based on the criticism and eventually built a successful product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="thoughts" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Basic Learnings & Thoughts</h2>
+            <div class="thoughts-grid">
+                <blockquote class="thought-card">
+                    "Success is not final, failure is not fatal: it is the courage to continue that counts."
+                </blockquote>
+                <div class="thought-card">
+                    <h3>Consistency over Intensity</h3>
+                    <p>Coding for 1 hour every day yields better results than cramming for 10 hours once a week.</p>
+                </div>
+                <div class="thought-card">
+                    <h3>Embrace the Unknown</h3>
+                    <p>The tech landscape changes rapidly. Being comfortable with not knowing everything is the first step to mastering anything.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container resume-container">
+            <h2 class="section-title">Resume</h2>
+            <p>Ready to collaborate or want to know more about my professional experience?</p>
+            <div class="resume-actions">
+                <a href="#" class="btn-primary" onclick="alert('Resume download link will go here.')">Download Resume (PDF)</a>
+                <a href="mailto:contact@example.com" class="btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Portfolio. Built with perseverance.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
